@@ -14,3 +14,6 @@ class Pessoa(models.Model):
 
     def __str__(self):
         return self.nome
+
+class Data(models.Model):
+    pass
